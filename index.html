@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en">
 <html>
     <head>
         <meta charset="UTF-8">
@@ -6,6 +7,11 @@
         <title>E-Commerce Project Iron Rod</title>
         <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+        <script src="script.js"></script>
 
     </head>
     <body>
@@ -49,10 +55,10 @@
                         </ul>
                         <div class="academic">
                             <div id="academic_cover">
-                                <img id="cover_photo" src="C:\xampp\htdocs\online_shop\Images\bg_educ.jpg" alt="graduate_image">
+                                <img id="cover_photo" src="C:\xampp\htdocs\MyPortfolioWebsite\Images\bg_educ.jpg" alt="graduate_image">
                             </div>
                             <div>
-                                <img src="C:\xampp\htdocs\online_shop\Images\toga.png" alt="toga_image">
+                                <img src="C:\xampp\htdocs\MyPortfolioWebsite\Images\toga.png" alt="toga_image">
                             </div>
                         </div>
                     </div>
@@ -88,22 +94,22 @@
                                 <a class="nav_link" id="hard-tab" data-toggle="tab" href="#hard" role="tab" aria-controls="hard" aria-selected="false">Hard Skills</a>
                             </li>
                         </ul>
-                        <div class="skills_container">
-                            <div class="skills_item"><span>HTML</span><img src="C:\xampp\htdocs\online_shop\Images\html.png" alt="html_logo"></div>
-                            <div class="skills_item"><span>CSS</span><img src="C:\xampp\htdocs\online_shop\Images\css.png" alt="css_logo"></div>
-                            <div class="skills_item"><span>JAVASCRIPT</span><img src="C:\xampp\htdocs\online_shop\Images\js.png" alt="js_logo"></div>
-                            <div class="skills_item"><span>GITHUB</span><img src="C:\xampp\htdocs\online_shop\Images\github.png" alt="github_logo"></div>
-                            <div class="skills_item"><span>MYSQL</span><img src="C:\xampp\htdocs\online_shop\Images\mysql.png" alt="mysql_logo"></div>
-                            <div class="skills_item"><span>MS SQL</span><img src="C:\xampp\htdocs\online_shop\Images\ms_sql.png" alt="ms_sql_logo"></div>
-                            <div class="skills_item"><span>JAVA</span><img src="C:\xampp\htdocs\online_shop\Images\java.png" alt="java_logo"></div>
-                            <div class="skills_item"><span>C#</span><img src="C:\xampp\htdocs\online_shop\Images\csharp.png" alt="csharp_logo"></div>
-                            <div class="skills_item"><span>PHP</span><img src="C:\xampp\htdocs\online_shop\Images\php.png" alt="php_logo"></div>
-                            <div class="skills_item"><span>PYTHON</span><img src="C:\xampp\htdocs\online_shop\Images\python.png" alt="python_logo"></div>
-                            <div class="skills_item"><span>REACTJS</span><img src="C:\xampp\htdocs\online_shop\Images\react.png" alt="react_logo"></div>
-                            <div class="skills_item"><span>ASP.NET CORE</span><img src="C:\xampp\htdocs\online_shop\Images\ASP.png" alt="asp_logo"></div>
-                            <div class="skills_item"><span>BOOTSTRAP</span><img src="C:\xampp\htdocs\online_shop\Images\Bootstrap.png" alt="bootstrap_logo"></div>
-                            <div class="skills_item"><span>JQUERY</span><img src="C:\xampp\htdocs\online_shop\Images\jquery.png" alt="jquery_logo"></div>
-                            <div class="skills_item"><span>PHOTOSHOP</span><img src="C:\xampp\htdocs\online_shop\Images\photoshop.png" alt="photoshop_logo"></div>
+                        <div class="tech_container" id="tech">
+                            <div class="tech_item"><span>HTML</span><img src="C:\xampp\htdocs\MyPortfolioWebsite\Images\html.png" alt="html_logo"></div>
+                            <div class="tech_item"><span>CSS</span><img src="C:\xampp\htdocs\MyPortfolioWebsite\Images\css.png" alt="css_logo"></div>
+                            <div class="tech_item"><span>JAVASCRIPT</span><img src="C:\xampp\htdocs\MyPortfolioWebsite\Images\js.png" alt="js_logo"></div>
+                            <div class="tech_item"><span>GITHUB</span><img src="C:\xampp\htdocs\MyPortfolioWebsite\Images\github.png" alt="github_logo"></div>
+                            <div class="tech_item"><span>MYSQL</span><img src="C:\xampp\htdocs\MyPortfolioWebsite\Images\mysql.png" alt="mysql_logo"></div>
+                            <div class="tech_item"><span>MS SQL</span><img src="C:\xampp\htdocs\MyPortfolioWebsite\Images\ms_sql.png" alt="ms_sql_logo"></div>
+                            <div class="tech_item"><span>JAVA</span><img src="C:\xampp\htdocs\MyPortfolioWebsite\Images\java.png" alt="java_logo"></div>
+                            <div class="tech_item"><span>C#</span><img src="C:\xampp\htdocs\MyPortfolioWebsite\Images\csharp.png" alt="csharp_logo"></div>
+                            <div class="tech_item"><span>PHP</span><img src="C:\xampp\htdocs\MyPortfolioWebsite\Images\php.png" alt="php_logo"></div>
+                            <div class="tech_item"><span>PYTHON</span><img src="C:\xampp\htdocs\MyPortfolioWebsite\Images\python.png" alt="python_logo"></div>
+                            <div class="tech_item"><span>REACTJS</span><img src="C:\xampp\htdocs\MyPortfolioWebsite\Images\react.png" alt="react_logo"></div>
+                            <div class="tech_item"><span>ASP.NET CORE</span><img src="C:\xampp\htdocs\MyPortfolioWebsite\Images\ASP.png" alt="asp_logo"></div>
+                            <div class="tech_item"><span>BOOTSTRAP</span><img src="C:\xampp\htdocs\MyPortfolioWebsite\Images\Bootstrap.png" alt="bootstrap_logo"></div>
+                            <div class="tech_item"><span>JQUERY</span><img src="C:\xampp\htdocs\MyPortfolioWebsite\Images\jquery.png" alt="jquery_logo"></div>
+                            <div class="tech_item"><span>PHOTOSHOP</span><img src="C:\xampp\htdocs\MyPortfolioWebsite\Images\photoshop.png" alt="photoshop_logo"></div>
                         </div>
                     </div>
                 </div>

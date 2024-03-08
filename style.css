@@ -137,12 +137,12 @@ body{
                         a.active {
                             background-color: red;
                         }
-                    .skills_container{
+                    .tech_container{
                         display: inline-block;
                         margin-top: 15px;
                         text-align: left;
                     }
-                        .skills_item{
+                        .tech_item{
                             display: inline-block;
                             vertical-align: middle;
                             border: solid 1px #951111;
